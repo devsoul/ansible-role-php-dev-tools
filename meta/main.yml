@@ -1,0 +1,62 @@
+galaxy_info:
+  author: devsoul
+  role_name: phpdevtools
+  description: Install phpdevtools on your Linux server or desktop
+  company: Devhost Ltd.
+  license: MIT
+  min_ansible_version: 2.7
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: EL
+    versions:
+    - all
+  - name: GenericLinux
+    versions:
+    - all
+  - name: FreeBSD
+    versions:
+    - all
+  - name: GenericBSD
+    versions:
+    - all
+  - name: GenericUNIX
+    versions:
+    - all
+  galaxy_tags:
+  - phpdevtools
+  - phpunit
+  - codeception
+  - codecept
+  - phpcsfixer
+  - phpcodesniffer
+  - codesniffer
+  - phpcs
+  - phpcbf
+  - phpmd
+  - phpcpd
+  - php
+  - phpdev
+  - phptools
+  - phpapps
+  - web
+  - development
+
+dependencies:
+- devsoul.phpunit
+- devsoul.codeception
+- devsoul.phpcsfixer
+- devsoul.phpcodesniffer
+- devsoul.phpmd
+- devsoul.phpcpd
+- devsoul.composer
+- devsoul.phploc
+- devsoul.phpstan
+- devsoul.phpmetrics
