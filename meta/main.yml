@@ -1,7 +1,7 @@
 galaxy_info:
   author: devsoul
   role_name: phpdevtools
-  description: Install phpdevtools on your Linux server or desktop
+  description: Install phpdevtools on your Linux machine
   company: Devhost Ltd.
   license: MIT
   min_ansible_version: 2.7
@@ -35,23 +35,27 @@ galaxy_info:
   - phpunit
   - codeception
   - codecept
+  - composer
   - phpcsfixer
   - phpcodesniffer
   - codesniffer
+  - phan
+  - phing
   - phpcs
   - phpcbf
+  - phploc
+  - phpmetrics
   - phpmd
   - phpcpd
-  - php
-  - phpdev
-  - phptools
-  - phpapps
+  - phpstan
   - web
   - development
 
 dependencies:
 - devsoul.phpunit
 - devsoul.codeception
+- devsoul.phan
+- devsoul.phing
 - devsoul.phpcsfixer
 - devsoul.phpcodesniffer
 - devsoul.phpmd
