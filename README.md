@@ -2,14 +2,18 @@ phpdevtools Ansible Role
 ----------------
     Codeception
     Composer
-    PHPUnit
-    PHP Coding Standards Fixer
+    Phan
+    Phing
     PHP_CodeSniffer
-    PHP Mess Detector
     PHP Copy/Paste Detector
+    PHP Coding Standards Fixer
     PHPLOC
-    PHPStan
+    PHP Mess Detector
     PhpMetrics
+    PHPStan
+    PHPUnit
+    Psalm
+    Psysh
 
         
 Requirements
@@ -22,7 +26,20 @@ None
 
 Dependencies
 ------------
-None
+    - devsoul.codeception
+    - devsoul.composer
+    - devsoul.phan
+    - devsoul.phing
+    - devsoul.phpcodesniffer
+    - devsoul.phpcpd
+    - devsoul.phpcsfixer
+    - devsoul.phploc
+    - devsoul.phpmd
+    - devsoul.phpmetrics
+    - devsoul.phpstan
+    - devsoul.phpunit
+    - devsoul.psalm
+    - devsoul.psysh
 
 Example Playbook
 ----------------
@@ -34,15 +51,19 @@ Check if it's installed:
 ------
     codecep --version
     composer --version
-    phpunit --version
+    phan --version
+    phing --version
     php-cs-fixer --version
-    phpcs --version
     phpcbf --version
-    phpmd --version
     phpcpd --version
+    phpcs --version
     phploc --version
-    phpstan --version
+    phpmd --version
     phpmetrics --version
+    phpstan --version
+    phpunit --version
+    psalm --version
+    psysh --version
 
 License
 -------

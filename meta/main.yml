@@ -31,36 +31,36 @@ galaxy_info:
     versions:
     - all
   galaxy_tags:
-  - phpdevtools
-  - phpunit
   - codeception
-  - codecept
   - composer
-  - phpcsfixer
-  - phpcodesniffer
-  - codesniffer
+  - development
   - phan
   - phing
-  - phpcs
-  - phpcbf
-  - phploc
-  - phpmetrics
-  - phpmd
+  - phpcodesniffer
   - phpcpd
+  - phpcsfixer
+  - phpdevtools
+  - phploc
+  - phpmd
+  - phpmetrics
   - phpstan
+  - phpunit
+  - psalm
+  - psysh
   - web
-  - development
 
 dependencies:
-- devsoul.phpunit
 - devsoul.codeception
+- devsoul.composer
 - devsoul.phan
 - devsoul.phing
-- devsoul.phpcsfixer
 - devsoul.phpcodesniffer
-- devsoul.phpmd
 - devsoul.phpcpd
-- devsoul.composer
+- devsoul.phpcsfixer
 - devsoul.phploc
-- devsoul.phpstan
+- devsoul.phpmd
 - devsoul.phpmetrics
+- devsoul.phpstan
+- devsoul.phpunit
+- devsoul.psalm
+- devsoul.psysh
