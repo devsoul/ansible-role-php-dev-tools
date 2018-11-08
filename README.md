@@ -5,6 +5,7 @@ phpdevtools Ansible Role
     Phan
     Phing
     PHP_CodeSniffer
+    PHPCOV
     PHP Copy/Paste Detector
     PHP Coding Standards Fixer
     PHPLOC
@@ -14,6 +15,7 @@ phpdevtools Ansible Role
     PHPUnit
     Psalm
     Psysh
+    Shaku
 
         
 Requirements
@@ -31,6 +33,7 @@ Dependencies
     - devsoul.phan
     - devsoul.phing
     - devsoul.phpcodesniffer
+    - devsoul.phpcov
     - devsoul.phpcpd
     - devsoul.phpcsfixer
     - devsoul.phploc
@@ -40,6 +43,7 @@ Dependencies
     - devsoul.phpunit
     - devsoul.psalm
     - devsoul.psysh
+    - devsoul.shaku
 
 Example Playbook
 ----------------
@@ -49,12 +53,13 @@ Example Playbook
 
 Check if it's installed:
 ------
-    codecep --version
+    codecept --version
     composer --version
     phan --version
     phing --version
     php-cs-fixer --version
     phpcbf --version
+    phpcov --version
     phpcpd --version
     phpcs --version
     phploc --version
@@ -64,6 +69,7 @@ Check if it's installed:
     phpunit --version
     psalm --version
     psysh --version
+    shaku --version
 
 License
 -------

@@ -37,6 +37,7 @@ galaxy_info:
   - phan
   - phing
   - phpcodesniffer
+  - phpcov
   - phpcpd
   - phpcsfixer
   - phpdevtools
@@ -47,6 +48,7 @@ galaxy_info:
   - phpunit
   - psalm
   - psysh
+  - shaku
   - web
 
 dependencies:
@@ -55,6 +57,7 @@ dependencies:
 - devsoul.phan
 - devsoul.phing
 - devsoul.phpcodesniffer
+- devsoul.phpcov
 - devsoul.phpcpd
 - devsoul.phpcsfixer
 - devsoul.phploc
@@ -64,3 +67,4 @@ dependencies:
 - devsoul.phpunit
 - devsoul.psalm
 - devsoul.psysh
+- devsoul.shaku
