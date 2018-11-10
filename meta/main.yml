@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: devsoul
   role_name: phpdevtools
@@ -6,65 +7,65 @@ galaxy_info:
   license: MIT
   min_ansible_version: 2.7
   platforms:
-  - name: Debian
-    versions:
-    - all
-  - name: Ubuntu
-    versions:
-    - all
-  - name: Fedora
-    versions:
-    - all
-  - name: EL
-    versions:
-    - all
-  - name: GenericLinux
-    versions:
-    - all
-  - name: FreeBSD
-    versions:
-    - all
-  - name: GenericBSD
-    versions:
-    - all
-  - name: GenericUNIX
-    versions:
-    - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: EL
+      versions:
+        - all
+    - name: GenericLinux
+      versions:
+        - all
+    - name: FreeBSD
+      versions:
+        - all
+    - name: GenericBSD
+      versions:
+        - all
+    - name: GenericUNIX
+      versions:
+        - all
   galaxy_tags:
-  - codeception
-  - composer
-  - development
-  - phan
-  - phing
-  - phpcodesniffer
-  - phpcov
-  - phpcpd
-  - phpcsfixer
-  - phpdevtools
-  - phploc
-  - phpmd
-  - phpmetrics
-  - phpstan
-  - phpunit
-  - psalm
-  - psysh
-  - shaku
-  - web
+    - codeception
+    - composer
+    - development
+    - phan
+    - phing
+    - phpcodesniffer
+    - phpcov
+    - phpcpd
+    - phpcsfixer
+    - phpdevtools
+    - phploc
+    - phpmd
+    - phpmetrics
+    - phpstan
+    - phpunit
+    - psalm
+    - psysh
+    - shaku
+    - web
 
 dependencies:
-- devsoul.codeception
-- devsoul.composer
-- devsoul.phan
-- devsoul.phing
-- devsoul.phpcodesniffer
-- devsoul.phpcov
-- devsoul.phpcpd
-- devsoul.phpcsfixer
-- devsoul.phploc
-- devsoul.phpmd
-- devsoul.phpmetrics
-- devsoul.phpstan
-- devsoul.phpunit
-- devsoul.psalm
-- devsoul.psysh
-- devsoul.shaku
+  - devsoul.codeception
+  - devsoul.composer
+  - devsoul.phan
+  - devsoul.phing
+  - devsoul.phpcodesniffer
+  - devsoul.phpcov
+  - devsoul.phpcpd
+  - devsoul.phpcsfixer
+  - devsoul.phploc
+  - devsoul.phpmd
+  - devsoul.phpmetrics
+  - devsoul.phpstan
+  - devsoul.phpunit
+  - devsoul.psalm
+  - devsoul.psysh
+  - devsoul.shaku
